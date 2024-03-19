@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+  box-sizing: border-box;
+
+}
+body{
+    background-color: wheat;
+}
+input[type=text], select, textarea {
+  width: 20%;
+  padding: 12px;
+  border: 1px solid skyblue;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: green;
+  color: yellowgreen;
+  padding: 12px 20px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: salmon;
+}
+.container {
+  border-radius: 5px;
+
+  padding: 10px;
+  font-size: 20px;
+  color: black;
+}
+.column {
+  float: left;
+  font-size: 10px;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+    </style>
+</head>
+<body>
+    <center>
+    <section>
+    
+        <div class="section-header">
+          <div class="container">
+            <h2>Contact Us</h2>
+          </div>
+        </div>
+        
+        <div class="container">
+          <div class="row">
+            
+            <div class="contact-info">
+              <div class="contact-info-item">
+                <div class="contact-info-icon">
+                  <i class="fas fa-home"></i>
+                </div>
+                
+                <div class="contact-info-content">
+                  <p style="  font-size: 20px">Address : anna nagar chennai 627719</p>
+                </div>
+              </div>
+              
+              <div class="contact-info-item">
+                <div class="contact-info-icon">
+                  <i class="fas fa-phone"></i>
+                </div>
+                
+                <div class="contact-info-content">
+                  <p style="  font-size: 20px;">Phone : 7856390589</p>
+                  
+                </div>
+              </div>
+              
+              <div class="contact-info-item">
+                <div class="contact-info-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                
+                <div class="contact-info-content">
+                  <p style="  font-size: 20px;">Email : xyz@gmail.com</p>
+                  <hr>  
+                </div>
+              </div>
+            </div>
+            
+            <div class="contact-form">
+              <form action="" id="contact-form">
+                <h2>Fill the form our team will contact</h2>
+                <div class="input-box">
+                    <span>Full Name</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    
+                  <input type="text" required="true" name="">
+                  <br>
+                  <br>
+                  
+                  
+    
+                </div>
+                
+                <div class="input-box">
+                    <span>Email id</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <input type="email" required="true" name="">
+                  <br>
+                  <br>
+                
+                  
+                </div>
+                <div class="input-box">
+                    <span> Type your Message</span>&nbsp;&nbsp;&nbsp;
+                    <input type="text" required="true" name="">
+                    <br>
+                    <br>
+                    <br>
+                  </div>
+                
+                <div class="input-box">
+                  <input type="submit" value="submit" name="">
+                
+                </div>
+              </form>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+    </center>
+</body>
+</html>
